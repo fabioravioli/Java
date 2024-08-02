@@ -1,0 +1,68 @@
+	table{
+		border-collapse: collapse;
+		margin: 2% auto;
+		width: 60%;
+		text-align: center;
+		font-size: 12px;
+	}
+	
+
+	th {
+		padding: 10px;
+		background-color: #d7e6e3;
+		border-style: solid;
+	}
+	
+	tr {
+		margin: 0;
+	}
+	
+	td {
+		margin: 0;
+		padding: 10px;
+	}
+	
+	
+	.tabella tr:nth-child(even):hover {
+		background-color: white;
+	}
+	
+	.tabella tr:nth-child(odd):hover {
+		background-color: white;
+	}
+	
+	
+	.tabella, .tabella th, .tabella td{
+		border: 1px solid white;
+	}
+
+	
+	.tabella tr:nth-child(even){ /* il selettore nth-clid(even) seleziona le righe o le colonne pari*/
+		background-color: #a5a5a5;
+	}
+	
+	.tabella tr:nth-child(odd){ /* il selettore nth-clid(odd) seleziona le righe o le colonne dispari*/
+		background-color: lightgrey;
+	}
+	
+	div.tableContainer {
+		overflow-x:auto;
+	}
+	
+	div.paginazione {
+		color: white;
+		width: 50%;
+		margin: 0 auto;
+		text-align: center;
+	}
+	
+	div.paginazione a {
+		color: white;
+		text-decoration: none;
+	}
+	
+	div.paginazione a:hover{
+		font-weight: bold;
+		color: red;
+	}
+	

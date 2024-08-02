@@ -1,0 +1,28 @@
+body {
+	background-color: lightgrey;
+	font-size: 24px;
+	text-align: center;
+}
+
+.titleOp {
+	font-weight: bold;
+	font-size: 30px;
+}
+
+
+li {
+	background-color: salmon;
+	text-align: left;
+	margin: 20px;
+}
+
+a {
+	color: white;
+	font-weight: bold;
+}
+
+.container {
+	border: 1px solid black;
+	width: 50%;
+	margin: 50px auto;
+}

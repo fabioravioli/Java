@@ -1,0 +1,106 @@
+div.container-input{
+	background-color: #5d9fca;
+	padding: 20px;
+	border-radius: 5px;
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px;
+}
+
+.container_reg, .container_login {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 20px auto;
+	width: 40%;
+}
+
+input{
+	width: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+	margin: 10px 0;
+}
+
+button[type='submit'] {
+	background-color: #316292;
+	color: white;
+}
+
+input[type='reset'] {
+	background-color: salmon;
+	color: white;
+}
+
+input[type='reset']:hover {
+	background-color: white;
+	color: black;
+}
+
+select  {
+	appearance: none;
+	width: 100%;
+	padding: 0.675em 6em 0.675em 1em;
+	margin: 10px auto;
+	background-color: #fff;
+	border: 1px solid #caced1;
+	border-radius: 0.25rem;
+	color: #000;
+	cursor: pointer;
+}
+
+
+button{
+	width: 100%;
+	padding: 10px;
+	cursor: pointer;
+}
+
+button.tableButton {
+	width: 100%;
+	cursor: pointer;
+	background-color: transparent;
+	border: 0;
+	color: black;
+	padding: 0;
+	margin: 0;
+}
+
+button.tableButton:hover {
+	color: red;
+}
+
+
+button:hover, input.elimina:hover {
+	background-color: white;
+	color: black;
+}
+
+.message{
+	margin: 10px 0;
+	background-color: white;
+	padding: 5px;
+	display: none;
+}
+
+.message.error{
+	display: block;
+	background-color: red;
+	color: white	
+}
+
+.message.ok{
+	display: block;
+	color: green;
+	background-color: white;
+}
+
+.newBook h3 {
+	text-align: center;
+	color: green;
+}

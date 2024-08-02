@@ -1,0 +1,117 @@
+* {
+	margin: 0;
+}
+
+body{
+	font-family: Arial;
+	padding: 10px;
+	background-color: lightgrey;
+}
+
+h1 {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+
+.leftcolumn {
+	float: left;
+	width: 74%;
+	margin-right: 10px;
+}
+
+.rightcolumn {
+	float: left;
+	width: 25%;
+}
+
+.row {
+	min-height: 400px;
+}
+
+.row::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+
+.leftcolumn .image img{
+	width: 60%;
+}
+
+.leftcolumn .image {
+	text-align: center;
+}
+
+.leftcolumn.register {
+	width: 100%;
+}
+
+.register h2 {
+	margin-top: 20px;
+	text-align: center;
+}
+
+footer {
+	padding: 20px;
+	text-align: center;
+	background-color: grey;
+	margin-top: 30px;
+	color: black;
+}
+
+.containerMessage {
+	width: 20%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.welcomeMessage a {
+	font-size: 10px;
+	color: white;
+	text-decoration: none;	
+}
+
+.titleSection {
+	background-color: white;
+	width: 50%;
+	padding: 10px 0;
+	margin: 20px auto;
+	text-align: center;
+}
+
+@media screen and (max-width: 1033px) {
+		.topnav a {
+			width: 100%;
+			padding: 30px 0;
+		}
+		
+		.leftcolumn, .rightcolumn {
+			width: 100%;
+		}
+		
+		table.tabella {
+			max-width: 100%;
+		}
+		
+		
+}
+	
+@media screen and (max-width: 650px) {
+	
+		table.tabella {
+			max-width: 100%;
+		}
+		
+		.card pre {
+			white-space:  pre-wrap;
+			word-break: break-word;
+			max-width: 100%;
+			overflow: auto;
+		}
+		
+		.container_reg {
+			min-width: 100%;
+		}
+}
